@@ -4,6 +4,7 @@ import Counter from './components/Counter';
 import TextInput from './components/TextInput';
 import TodoList from './components/TodoList';
 import Timer from './components/Timer';
+import CommentsList from './components/CommentsList';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <TextInput />
       <TodoList />
       <Timer />
+      <CommentsList/>
     </div>
   );
 }
