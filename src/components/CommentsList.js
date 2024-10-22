@@ -10,13 +10,6 @@ function CommentsList() {
         { id: 3, text: "Это третий комментарий" }
     ]);
 
-    const [text, setText] = useState('');
-
-    const addComment = () => {
-        setList();
-        setText('');
-    }
-
     function removeComment(num)  {
         setList(prevList => prevList.filter(comment => comment.id !== num));
     }
